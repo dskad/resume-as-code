@@ -1,0 +1,42 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,10pt, compact]{yaac-another-awesome-cv}
+\name{Daniel}{Skadra}
+\tagline{Software Engineer | System Administrator}
+\photo{2.5cm}{dan}
+\socialinfo{
+	\address{Cleveland, Oh}\\
+	\linkedin{danskadra}
+	\github{dskad}\\
+	\smartphone{+1 216-334-3619}
+	\email{dskadra@gmail.com}\\
+	\website{https://dskad.github.io}{https://dskad.github.io}\\
+}
+
+% Uncomment the following line and use a value from 1.5cm to 2.5cm
+% \setleftcolumnlength{2.5cm}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\today}}
+		{\textsc{Daniel Skadra - R\'esum\'e}}
+		{\thepage}
+	\input{section_headline}
+	\input{section_skills}
+	\input{section_experience}
+	\input{section_education}
+	\input{section_projects}
+\end{document}
