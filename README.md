@@ -1,5 +1,9 @@
 # My Resume As Code
 
+What is the best way to write a resume as a software engineer? Using a nearly 40 year old text layout language to write your resume as code, of course!
+
+[LaTex](https://www.latex-project.org/) is a typesetting language most commonly used for scientific and academic publications, but is also used to write books and even resumes!
+
 This resume is using the [YAAC: Another Awesome CV](https://github.com/darwiin/yaac-another-awesome-cv) LaTeX template. Go check it out. It is pretty awesome!
 
 ## Quick start
