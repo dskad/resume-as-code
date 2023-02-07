@@ -14,36 +14,44 @@
 %\renewcommand{\labelitemi}{$\bullet$}
 \begin{experiences}
   \experience
-    {Current}       {Software Engineer}{\link{https://keybank.com}{KeyBank}}{Cleveland, OH}
+    {Current}       {Senior Software Engineer}
+                    {\link{https://keybank.com}{KeyBank}}{Cleveland, OH}
     {November 2008} {
-                      About my role
+                      Application support for KeyBank ATMs and ATM infrastructure. Manage and maintain the servers used for monitoring and support of 1300 ATMs. Support the OS and software on KeyBank ATMs and connectivity to Key's infrastructure
                       \begin{itemize}
-                        \item Some accomplishment
-                        \item Some other accomplishments
+                        \item Guided architecture decisions for new ATM platform upgrade, to improve reliability and performance as well as PCI/PII data protection
+                        \item Technical Lead for POC implementations of new ATM platform software evaluation
+                        \item Deployed a POC Puppet environment within Docker containers to manage ATM configuration drift and initial setup
+                        \item Developed PowerShell script to safely move over \$15MM worth of check images and transaction files from the ATMs to backend processing servers
+                        \item Deployed Windows Server Update Server(WSUS) to decrease OS patch deployment time to less than one week and OS Patch compliance to greater than 98\%
+                        \item Developed scripted solution to automate PKI certificate generation using OpenSSL
+                        \item Utilize Dynatrace and Elasticsearch/ELK to troubleshoot and debug vendor Java EE based applications hosted on Linux WebSphere servers. Submitted several bug reports to the vendor to improve application performance
+                        \item Developed an automated process to deliver current Microsoft root certificates to the disconnected ATM environment
+                        \item Troubleshoot connectivity issues between ATM and backend servers through various F5 firewalls and load balancers, as well as DNS and Active Directory configuration issues
+                        \item Provided training and mentoring to team members on Git, CI/CD and general deployment tasks
                       \end{itemize}
                     }
-                    {PowerShell,Python,WebSphere,Architecture,Nexus,Artifactory}
+                    {PowerShell,Python,Java,WebSphere,Nexus,Artifactory,Git,Puppet,Linux,Windows Server/Desktop,PKI,Dynatrace,ElasticSearch,Active Directory,Architecture}
   \emptySeparator
   \experience
     {November 2008} {Senior Desktop Analyst}{\link{https://www.cardinalhealth.com}{Cardinal Health, Inc.}}{Albuquerque, NM}
     {May 2002}    {
+                    Responsible for end user desktop support as well as server and infrastructure management for multiple remote sites
                       \begin{itemize}
-                        \item
-                          Primary responsibility is working with and mentoring a team of five others to provide desktop support for 800+ users across three campuses and two business units.
-                        \item
-                        Primary builder and maintainer for workstation images, used for workstation deployment.
-                        \item Primary administrator for 14 Windows 2000 and NT servers
-                        \item Maintain server and network availability by maintaining current backups of all servers and verifying that network performance stays within acceptable levels.
-                        \item Designed and implemented a web application utilizing Ruby on Rails and Perl that performs a live inventory of the networked workstations on the site and allows IT personnel to search for and connect to workstations via the network for support and troubleshooting. This improved the IT staff’s efficiency and reduced problem resolution times.
-                        \item Designed and implemented a database to track printer toner usage to be able to visualize problematic printer usage patterns to reduce toner expenses
+                        \item Mentored a team of five others to provide desktop support for 800+ users across three campuses and two business units
+                        \item Designed and implemented a Ruby on Rails application that performed a live inventory of the networked workstations and allowed IT personnel to search for and connect to workstations via the network for support and troubleshooting. This improved the IT staff’s efficiency and reduced problem resolution times.
+                        \item Designed and implemented an application to track printer toner usage to visualize problematic printer usage patterns to reduce toner expenses
+                        \item Employed automation to build and maintained workstation OS images, using Microsoft Deployment Toolkit (MDT)
+                        \item System administrator for 14 Windows 2000 and NT servers
+                        \item Maintained server and network availability by maintaining current backups of all servers and verifying that network performance stays within acceptable levels.
                         \item Implemented SNMP monitoring system to monitor the performance of the local servers and network, proactively looking for issues that may arise and for usage trending to plan for future upgrades
                         \item Planned, designed and implemented McAfee Antivirus upgrade strategy and management solution for 300+ workstations and servers utilizing ePolicy Orchestrator from McAfee
                         \item Researched and implemented a patch management strategy, where no patch management strategy was in place previously, for 300+ Windows 2000/XP workstations and servers using Microsoft Software Windows Software Update Service (WSUS)
                         \item Wrote PERL scripts to gather data from workstations to verify software licensing and patch level compliance
                         \item Wrote VBScript/Batch scripts to automate software distribution and upgrades
-                        \item Use TCP/IP packet capturing and analysis software, Wireshark and Network General Sniffer to analyze the network for performance issues down to the packet level
+                        \item Use TCP/IP packet capturing and analysis software, Wireshark to analyze the network and server for performance issues down to the packet level
                         \item Implemented and maintained backup system utilizing Symantec Backup Exec
                       \end{itemize}
                     }
-                    {Windows Server/Desktop,}
+                    {Windows Server/Desktop,WSUS,Microsoft Deployment Toolkit(MDT),Ruby on Rails,VBScript,PERL,Wireshark}
 \end{experiences}
